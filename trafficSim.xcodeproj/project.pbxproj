@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01433ECA1A8D35CC00B86BA4 /* simengine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01433EC81A8D35CC00B86BA4 /* simengine.cpp */; };
+		01433ECD1A8D366C00B86BA4 /* event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01433ECB1A8D366C00B86BA4 /* event.cpp */; };
+		01433ED01A8D396D00B86BA4 /* random_gen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01433ECE1A8D396D00B86BA4 /* random_gen.cpp */; };
+		01433ED31A8DAF2500B86BA4 /* system.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01433ED11A8DAF2500B86BA4 /* system.cpp */; };
 		0175688C1A700F5B0084B9EC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0175688B1A700F5B0084B9EC /* main.cpp */; };
+		017E65371A7C356B001966E1 /* link.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017E65351A7C356B001966E1 /* link.cpp */; };
+		017E653A1A7C35D1001966E1 /* vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017E65381A7C35D1001966E1 /* vehicle.cpp */; };
+		017E653D1A7C3625001966E1 /* trafficlight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017E653B1A7C3625001966E1 /* trafficlight.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01433EC81A8D35CC00B86BA4 /* simengine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simengine.cpp; sourceTree = "<group>"; };
+		01433EC91A8D35CC00B86BA4 /* simengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simengine.h; sourceTree = "<group>"; };
+		01433ECB1A8D366C00B86BA4 /* event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = event.cpp; sourceTree = "<group>"; };
+		01433ECC1A8D366C00B86BA4 /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		01433ECE1A8D396D00B86BA4 /* random_gen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = random_gen.cpp; sourceTree = "<group>"; };
+		01433ECF1A8D396D00B86BA4 /* random_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_gen.h; sourceTree = "<group>"; };
+		01433ED11A8DAF2500B86BA4 /* system.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = system.cpp; sourceTree = "<group>"; };
+		01433ED21A8DAF2500B86BA4 /* system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = system.h; sourceTree = "<group>"; };
 		017568881A700F5B0084B9EC /* trafficSim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = trafficSim; sourceTree = BUILT_PRODUCTS_DIR; };
 		0175688B1A700F5B0084B9EC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		017E65351A7C356B001966E1 /* link.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = link.cpp; sourceTree = "<group>"; };
+		017E65361A7C356B001966E1 /* link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = link.h; sourceTree = "<group>"; };
+		017E65381A7C35D1001966E1 /* vehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vehicle.cpp; sourceTree = "<group>"; };
+		017E65391A7C35D1001966E1 /* vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vehicle.h; sourceTree = "<group>"; };
+		017E653B1A7C3625001966E1 /* trafficlight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trafficlight.cpp; sourceTree = "<group>"; };
+		017E653C1A7C3625001966E1 /* trafficlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trafficlight.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				0175688B1A700F5B0084B9EC /* main.cpp */,
+				017E65351A7C356B001966E1 /* link.cpp */,
+				017E65361A7C356B001966E1 /* link.h */,
+				017E65381A7C35D1001966E1 /* vehicle.cpp */,
+				017E65391A7C35D1001966E1 /* vehicle.h */,
+				017E653B1A7C3625001966E1 /* trafficlight.cpp */,
+				017E653C1A7C3625001966E1 /* trafficlight.h */,
+				01433EC81A8D35CC00B86BA4 /* simengine.cpp */,
+				01433EC91A8D35CC00B86BA4 /* simengine.h */,
+				01433ECB1A8D366C00B86BA4 /* event.cpp */,
+				01433ECC1A8D366C00B86BA4 /* event.h */,
+				01433ECE1A8D396D00B86BA4 /* random_gen.cpp */,
+				01433ECF1A8D396D00B86BA4 /* random_gen.h */,
+				01433ED11A8DAF2500B86BA4 /* system.cpp */,
+				01433ED21A8DAF2500B86BA4 /* system.h */,
 			);
 			path = trafficSim;
 			sourceTree = "<group>";
@@ -118,7 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017E653D1A7C3625001966E1 /* trafficlight.cpp in Sources */,
 				0175688C1A700F5B0084B9EC /* main.cpp in Sources */,
+				01433ECD1A8D366C00B86BA4 /* event.cpp in Sources */,
+				01433ECA1A8D35CC00B86BA4 /* simengine.cpp in Sources */,
+				01433ED31A8DAF2500B86BA4 /* system.cpp in Sources */,
+				01433ED01A8D396D00B86BA4 /* random_gen.cpp in Sources */,
+				017E653A1A7C35D1001966E1 /* vehicle.cpp in Sources */,
+				017E65371A7C356B001966E1 /* link.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +274,7 @@
 				017568911A700F5B0084B9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
